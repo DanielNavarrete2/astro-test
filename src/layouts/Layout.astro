@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import HeaderComponent from "../components/HeaderComponent.astro";
+import HeaderComponents from "../components/HeaderComponents.astro";
 ---
 
 <!doctype html>
@@ -14,16 +14,9 @@ import HeaderComponent from "../components/HeaderComponent.astro";
 	</head>
 	<body>
 
-		<HeaderComponent/>
+		<HeaderComponents/>
 		<slot />
 	</body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+

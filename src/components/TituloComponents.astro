@@ -1,0 +1,9 @@
+---
+interface Props{
+    text: string;
+    stilo: string;
+}
+const {text,stilo}= Astro.props
+---
+
+<h2 class={`text-3xl shadow-2xl ${stilo}`}>{text}</h2>
